@@ -3,8 +3,10 @@ body {
     font-optical-sizing: auto;
     color: white;
     background-image: url(img/bg.jpg);
+    background-size: cover;
 }
 
-div {
+div.hero {
    backdrop-filter: blur(10px); 
+   height: 100%;
 }

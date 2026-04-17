@@ -1,4 +1,7 @@
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    color: white;
+    background-image: image("img/bg.jpg");
+    backdrop-filter: blur(10px);
 }

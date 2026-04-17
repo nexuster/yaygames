@@ -8,7 +8,7 @@ body {
 
 div.hero {
     backdrop-filter: blur(10px); 
-    
+
     position:fixed;
     width:100%;
     height:100%;
@@ -19,4 +19,12 @@ div.hero {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+div.glass {
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    background: #E8E0FF;
+    background: linear-gradient(54deg,rgba(232, 224, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 47%, rgba(239, 222, 255, 0.2) 89%);
+    border: linear-gradient(54deg,rgba(232, 224, 255, 1) 0%, rgba(255, 255, 255, 1) 47%, rgba(239, 222, 255, 1) 89%);
 }

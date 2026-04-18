@@ -28,9 +28,23 @@ div.glass {
     display: flexbox;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
+    size: 120%;
+    padding: 12px;
 
     background: #E8E0FF;
     background:
         linear-gradient(54deg,rgba(232, 224, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 47%, rgba(239, 222, 255, 0.2) 89%);
-    border: rgba(255, 255, 255, 0.2) 1px solid
+    border: rgba(255, 255, 255, 0.2) 2px solid
+}
+
+button {
+    border-radius: 6px;
+    border: rgba(255, 255, 255, 0.2) 2px solid;
+    padding: 12px;
+
+    background: #E8E0FF;
+    background:
+        linear-gradient(54deg,rgba(232, 224, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 47%, rgba(239, 222, 255, 0.2) 89%);
 }

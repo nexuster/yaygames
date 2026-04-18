@@ -44,7 +44,7 @@ button {
     border: rgba(255, 255, 255, 0.2) 2px solid;
     padding: 12px;
 
-    background: #E8E0FF;
+    background: #7f54ff;
     background:
-        linear-gradient(54deg,rgba(232, 224, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 47%, rgba(239, 222, 255, 0.2) 89%);
+        linear-gradient(0deg, rgba(127, 84, 255, 1) 0%, rgba(98, 73, 222, 1) 54%, rgba(136, 108, 241, 1) 91%, rgba(165, 135, 255, 1) 100%);
 }

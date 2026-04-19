@@ -8,12 +8,14 @@ function display_games() {
     for (const game of games) {
         var div = document.createElement("div");
         div.className = "app";
-        div.style.backgroundImage = `url('${game.thumb}');`
-        var p = document.createElement("p");
-        p.textContent = "test"
-        div.appendChild(p)
+        div.style.backgroundImage = `url('${game.thumb}')`;
+        // var p = document.createElement("p");
+        // p.textContent = "test"
+        // div.appendChild(p)
         gameContainer.appendChild(div);
     }
 }
 
 display_games();
+
+// https://nexuster.github.io/yaygames/

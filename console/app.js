@@ -10,7 +10,7 @@ function display_games() {
         div.className = "app";
         div.style.backgroundImage = `url('${game.thumb}');`
         var p = document.createElement("p");
-        p.textContent = test
+        p.textContent = "test"
         div.appendChild(p)
         gameContainer.appendChild(div);
     }

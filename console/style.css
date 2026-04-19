@@ -4,6 +4,8 @@ body {
 
 #game_browser {
     background-color: rgb(67, 67, 78);
+    display: flex;
+    gap: 12px;
 }
 
 .app {
@@ -18,16 +20,6 @@ body {
     image-rendering: crisp-edges;
     /* Chromium + Safari */
     image-rendering: pixelated;
-
-    backdrop-filter: blur(20px) saturate(120%);
-    border-radius: 1rem;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-    size: 33%;
-    padding: 12px;
 
     background: #E8E0FF;
     background:

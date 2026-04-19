@@ -1,4 +1,4 @@
-#app {
+.app {
     display: flex;
     size: 400px 400px;
     background-size: contain;

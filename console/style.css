@@ -1,7 +1,36 @@
+body {
+    background-color: rgb(61, 61, 73);
+}
+
+#game_browser {
+    background-color: rgb(67, 67, 78);
+}
+
 .app {
     display: flex;
     width: 400px;
     height: 400px;
     background-size: cover;
+    box-shadow: 0px 0px 14px 0px rgba(46,123,255,0.9);
     /* background-image: url('applications/html_test/thumb.png'); */
+    -ms-interpolation-mode: nearest-neighbor;
+    /* Firefox */
+    image-rendering: crisp-edges;
+    /* Chromium + Safari */
+    image-rendering: pixelated;
+
+    backdrop-filter: blur(20px) saturate(120%);
+    border-radius: 1rem;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    size: 33%;
+    padding: 12px;
+
+    background: #E8E0FF;
+    background:
+        linear-gradient(54deg,rgba(232, 224, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 47%, rgba(239, 222, 255, 0.2) 89%);
+    border: rgba(255, 255, 255, 0.2) 2px solid
 }

@@ -2,4 +2,5 @@
     display: flex;
     size: 400px 400px;
     background-size: contain;
+    background-image: url('applications/html_test/thumb.png');
 }

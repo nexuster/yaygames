@@ -9,7 +9,7 @@ function display_games() {
     for (const game of games) {
         const div = document.createElement("div");
         div.className = "app";
-        div.style.backgroundImage = `url('console/applications/${game.name}/thumb.png')`;
+        div.style.backgroundImage = `url('applications/${game.name}/thumb.png')`;
         gameContainer.appendChild(div);
     }
 }

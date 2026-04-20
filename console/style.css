@@ -5,13 +5,18 @@ body {
 #game_browser {
     background-color: rgb(67, 67, 78);
     display: flex;
-    margin-left: 48px;
     gap: 24px;
+    position:fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
 }
 
 .app {
-    width: 400px;
-    height: 400px;
+    margin-left: 48px;
+    width: 600px;
+    height: 600px;
     /* background-image: url('applications/html_test/thumb.png'); */
     -ms-interpolation-mode: nearest-neighbor;
     image-rendering: crisp-edges;

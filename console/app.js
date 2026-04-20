@@ -8,7 +8,7 @@ function display_games() {
     for (const game of games) {
         var div = document.createElement("div");
         div.className = "app";
-        div.style.backgroundImage = `url('${game.thumb}')`;
+        div.style.backgroundImage = `url('applications/${game.name}/thumb.png')`;
         // var p = document.createElement("p");
         // p.textContent = "test"
         // div.appendChild(p)

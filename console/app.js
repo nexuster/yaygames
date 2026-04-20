@@ -10,7 +10,7 @@ function display_games() {
         b.className = "app";
         b.style.backgroundImage = `url('applications/${game.name}/thumb.png')`;
         b.id = game.name
-        b.onclick = `game_onclick(${b.id})`
+        b.onclick = () => game_onclick(b.id)
         gameContainer.appendChild(b);
     }
 }

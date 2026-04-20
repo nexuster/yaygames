@@ -19,9 +19,6 @@ body {
     image-rendering: crisp-edges;
     image-rendering: pixelated;
 
-    position: fixed;
-    top:0px;
-
     background-size: cover;
     background-image:
         linear-gradient(54deg,rgba(232, 224, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 47%, rgba(239, 222, 255, 0.2) 89%);

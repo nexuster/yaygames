@@ -1,7 +1,8 @@
 const games = [
     { name: "html_test"},
     { name: "pico_consl_test"},
-    { name: "pico_bbs_test"}
+    { name: "pico_bbs_test"},
+    { name: "to_a_starling"}
 ];
 
 function display_games() {

@@ -9,16 +9,15 @@ function display_games() {
         var b = document.createElement("button");
         b.className = "app";
         b.style.backgroundImage = `url('applications/${game.name}/thumb.png')`;
-        b.id = game.name
-        b.onclick = () => game_onclick(b.id)
+        b.onclick = () => game_onclick(game.name)
         gameContainer.appendChild(b);
     }
 }
 
 display_games();
 
-function game_onclick(id) {
-    document.location.href = `applications/${id}/index.html`
+function game_onclick(gameName) {
+    document.location.href = `applications/${gameName}/index.html`
 }
 
 // https://nexuster.github.io/yaygames/

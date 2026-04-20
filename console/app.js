@@ -1,21 +1,24 @@
 const games = [
-    { name: "html_test", thumb: "applications/html_test/thumb.png"},
-    { name: "pico_consl_test", thumb: "applications/pico_consl_test/thumb.png"}
+    { name: "html_test"},
+    { name: "pico_consl_test"}
 ];
 
 function display_games() {
     const gameContainer = document.getElementById("game_browser");
     for (const game of games) {
-        var div = document.createElement("div");
-        div.className = "app";
-        div.style.backgroundImage = `url('applications/${game.name}/thumb.png')`;
-        // var p = document.createElement("p");
-        // p.textContent = "test"
-        // div.appendChild(p)
-        gameContainer.appendChild(div);
+        var b = document.createElement("button");
+        b.className = "app";
+        b.style.backgroundImage = `url('applications/${game.name}/thumb.png')`;
+        b.id = game.name
+        b.onclick = `game_onclick(${b.id})`
+        gameContainer.appendChild(b);
     }
 }
 
 display_games();
+
+function game_onclick(id) {
+    document.location.href = `applications/${id}/index.html`
+}
 
 // https://nexuster.github.io/yaygames/

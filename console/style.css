@@ -12,8 +12,8 @@ body {
 
 .app {
     margin-left: 48px;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     /* background-image: url('applications/html_test/thumb.png'); */
     -ms-interpolation-mode: nearest-neighbor;
     image-rendering: crisp-edges;
@@ -24,6 +24,10 @@ body {
         linear-gradient(54deg,rgba(232, 224, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 47%, rgba(239, 222, 255, 0.2) 89%);
     border: rgba(255, 255, 255, 0.2) 2px solid;
     border-radius: 0.4rem;
+
+    flex-shrink: 0;
+    padding: 0;
+    cursor: pointer;
 }
 
 .app:hover {

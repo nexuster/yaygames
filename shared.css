@@ -18,3 +18,27 @@ div.glass {
 p.glass, h1.glass {
     top: 0px;
 }
+
+button {
+    border-radius: 6px;
+    border: rgba(255, 255, 255, 0.2) 2px solid;
+    padding: 12px;
+
+    color: white;
+
+    background: #7f54ff;
+    background:
+        linear-gradient(0deg, rgba(127, 84, 255, 1) 0%, rgba(98, 73, 222, 1) 54%, rgba(136, 108, 241, 1) 91%, rgba(165, 135, 255, 1) 100%);
+}
+
+button:hover {
+    border-radius: 6px;
+    border: rgba(47, 18, 154, 0.2) 2px solid;
+    padding: 12px;
+
+    color: rgb(235, 226, 255);
+    
+    background: #7b4fff;
+    background:
+        linear-gradient(0deg, rgba(123, 79, 255, 1) 0%, rgba(76, 46, 230, 1) 12%, rgba(67, 15, 255, 1) 41%, rgba(92, 38, 255, 1) 100%);
+}

@@ -8,11 +8,16 @@ const games = [
 function display_games() {
     const gameContainer = document.getElementById("game_browser");
     for (const game of games) {
+        var div = document.createElement("div");
+        div.className = "glass";
+        div.style.padding = '12px'
         var b = document.createElement("button");
         b.className = "app";
         b.style.backgroundImage = `url('applications/${game.name}/thumb.png')`;
         b.onclick = () => game_onclick(game.name)
-        gameContainer.appendChild(b);
+
+        div.appendChild(b);
+        gameContainer.appendChild(div);
     }
 }
 

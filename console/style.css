@@ -6,10 +6,12 @@ body {
     background-color: rgb(67, 67, 78);
     display: flex;
     gap: 24px;
+    padding: 12px;
     
     z-index:1000;
-    
+
     background-image: url('/img/bg.jpg');
+    background-size: cover;
 }
 
 .app {

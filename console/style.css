@@ -22,6 +22,9 @@ body {
     image-rendering: pixelated;
 
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
     background-color: transparent;
     border: transparent;
     border-radius: 0.4rem;
@@ -33,5 +36,5 @@ body {
 .app:hover {
     box-shadow: 0px 0px 14px 0px rgba(46,123,255,0.9);
     filter: brightness(110%) saturate(90%);
-    background-size: cover;
+    /* background-size: cover; */
 }

@@ -8,13 +8,14 @@ body {
     gap: 24px;
     
     z-index:1000;
+    
+    background-image: url('/img/bg.jpg');
 }
 
 .app {
     margin-left: 48px;
     width: 400px;
     height: 400px;
-    /* background-image: url('applications/html_test/thumb.png'); */
     -ms-interpolation-mode: nearest-neighbor;
     image-rendering: crisp-edges;
     image-rendering: pixelated;
@@ -26,7 +27,7 @@ body {
     border-radius: 0.4rem;
 
     flex-shrink: 0;
-    padding: 0;
+    padding: 12px;
     cursor: pointer;
 }
 

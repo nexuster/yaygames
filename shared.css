@@ -1,0 +1,20 @@
+div.glass {
+    backdrop-filter: blur(20px) saturate(120%);
+    border-radius: 1rem;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    size: 33%;
+    padding: 12px;
+
+    background: #E8E0FF;
+    background:
+        linear-gradient(54deg,rgba(232, 224, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 47%, rgba(239, 222, 255, 0.2) 89%);
+    border: rgba(255, 255, 255, 0.2) 2px solid
+}
+
+p.glass, h1.glass {
+    top: 0px;
+}
